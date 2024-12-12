@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.no1 {
+    display: flex;
+    margin: 5vh 0;
+}
+
+.p1 {
+    background-color: olive;
+    border-radius: 8px;
+    margin: 0 1vw;
+    padding: 1vh 1vw;
+    color: #fff;
+    flex: 1 0 100px;
+}
+
+.p2 {
+    background-color: beige;
+    border-radius: 8px;
+    margin: 0 1vw;
+    padding: 1vh 1vw;
+    color: #000;
+    flex: 1 1 500px;
+}
+
+.p3 {
+    background-color: yellowgreen;
+    border-radius: 8px;
+    margin: 0 1vw;
+    padding: 1vh 1vw;
+    color: #fff;
+    flex: 0 1 100px;
+}
+
+.no2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 35vh;
+    background-color: aquamarine;
+}
+
+.no2 div {
+    background-color: beige;
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    color: #000;
+}
+
+.no3 {
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(3,50px);
+    margin: 5vh 0;
+}
+
+.no3 div {
+    background-color: skyblue;
+    border-radius: 8px;
+    margin: 1vh 1vw;
+    color: #fff;
+    text-align: center;
+}
+
+.no4 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5vh 0;
+}
+
+/* .no4 div {
+    background-color: #555;
+    border-radius: 8px;
+    margin: 1vh 1vw;
+    color: #fff;
+    text-align: center;
+} */
+
+.no5 {
+    margin: 5vh 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    'div1 div4'
+    'div2 .'
+    'div3 div5'
+}
+
+.no5 div {
+    background-color:plum;
+    border-radius: 8px;
+    margin: 1vh 1vw;
+    color: #000;
+    text-align: right;
+}
+
+.div1 {
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+
+.div4 {
+    grid-area: div4;
+}
+
+.div5 {
+    grid-area: div5;
+}
+
+.p{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1vh 1vw;
+}
+
+.p p {
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 1vh 1vw;
+    color: #000;
+    text-align: right;
+}
